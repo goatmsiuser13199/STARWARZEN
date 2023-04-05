@@ -14,11 +14,18 @@ class ship {
 }
 const playerShip = new ship();
 const hostileShip = new ship();
+const myInput = document.getElementById("myInput");
+myInput.addEventListener("input", function(event) {
+  console.log("Vous avez saisi : " + event.target.value);
+});
 fight()
 
 
 
+
+
 function fight(){
+
     playerShip.attack(hostileShip);
     hostileShip.attack(playerShip);
 }
@@ -42,5 +49,5 @@ function sleep(milliseconds) {
     do {
       currentDate = Date.now();
     } while (currentDate - date < milliseconds);
-  }
+}
   
