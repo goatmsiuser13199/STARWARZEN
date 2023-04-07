@@ -19,6 +19,9 @@ myInput.addEventListener("input", function(event) {
   console.log("Vous avez saisi : " + event.target.value);
 });
 fight()
+var myButton = document.getElementById("myButton");
+var isTrue = myButton.dataset.bool === "true";
+console.log(isTrue); // affiche "true"
 
 
 
