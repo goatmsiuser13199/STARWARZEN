@@ -1,0 +1,138 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton" data-bool="true">Cliquez ici</button>
+    <button id="bouton1">Bouton 1</button>
+	<button id="bouton2">Bouton 2</button>
+    <script src="zeubi.js"></script>
+    <input type="text" id="myInput">
+
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Combat de vaisseaux</title>
+	<style>
+		body {
+			background-color: #333;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin-top: 50px;
+		}
+		h1 {
+			font-size: 3em;
+		}
+		#game {
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+		}
+		#ship1, #ship2 {
+			width: 200px;
+			height: 200px;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			margin-right: 50px;
+			text-align: center;
+			padding-top: 20px;
+			box-sizing: border-box;
+		}
+		#ship1 {
+			background-image: url('https://cdn.pixabay.com/photo/2016/04/01/10/04/aircraft-1293154_960_720.png');
+		}
+		#ship2 {
+			background-image: url('https://cdn.pixabay.com/photo/2014/04/03/10/00/spaceship-310334_960_720.png');
+		}
+		#ship1 .health, #ship2 .health {
+			font-size: 2em;
+			margin-bottom: 10px;
+		}
+		#ship1 .button, #ship2 .button {
+			background-color: #ff5722;
+			border: none;
+			color: #fff;
+			padding: 10px 20px;
+			font-size: 1.5em;
+			cursor: pointer;
+			margin-bottom: 20px;
+			transition: background-color 0.2s ease;
+		}
+		#ship1 .button:hover, #ship2 .button:hover {
+			background-color: #ff7043;
+		}
+	</style>
+</head>
+<body>
+	<h1>Combat de vaisseaux</h1>
+	<div id="game">
+		<div id="ship1">
+			<div class="health">100 / 100</div>
+			<button class="button">Attaquer</button>
+		</div>
+		<div id="ship2">
+			<div class="health">100 / 100</div>
+			<button class="button">Attaquer</button>
+		</div>
+	</div>
+
+	<script>
+		// Définition des vaisseaux
+		const ship1 = {
+			name: 'Vaisseau 1',
+			health: 100,
+			attack: function() {
+				return Math.floor(Math.random() * 21) + 5;
+			},
+			element: document.getElementById('ship1')
+		};
+
+		const ship2 = {
+			name: 'Vaisseau 2',
+			health: 100,
+			attack: function() {
+				return Math.floor(Math.random() * 21) + 5;
+			},
+			element: document.getElementById('ship2')
+		};
+
+		// Fonction pour mettre à jour l'affichage de la santé
+		function updateHealth(ship) {
+			ship.element.querySelector('.health').textContent = `${ship.health} / 100`;
+		}
+
+		// Fonction pour g
+
+        		// Fonction pour gérer l'attaque
+		function attack(attacker, defender) {
+			const damage = attacker.attack();
+			defender.health -= damage;
+			updateHealth(defender);
+			alert(`${attacker.name} attaque ${defender.name} et inflige ${damage} points de dégâts !`);
+			if (defender.health <= 0) {
+				alert(`${defender.name} est détruit !`);
+				attacker.element.querySelector('.button').disabled = true;
+				defender.element.querySelector('.button').disabled = true;
+			}
+		}
+
+		// Ajout des écouteurs d'événements sur les boutons
+		ship1.element.querySelector('.button').addEventListener('click', function() {
+			attack(ship1, ship2);
+		});
+
+		ship2.element.querySelector('.button').addEventListener('click', function() {
+			attack(ship2, ship1);
+		});
+	</script>
+</body>
+</html>

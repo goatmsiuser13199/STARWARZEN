@@ -1,0 +1,49 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 3em;
+}
+#game {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#ship1, #ship2 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#ship1 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/01/10/04/aircraft-1293154_960_720.png');
+}
+#ship2 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/03/10/00/spaceship-310334_960_720.png');
+}
+#ship1 .health, #ship2 .health {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#ship1 .button, #ship2 .button {
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s ease;
+}
+#ship1 .button:hover, #ship2 .button:hover {
+    background-color: #ff7043;
+}
