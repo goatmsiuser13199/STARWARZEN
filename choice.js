@@ -8,20 +8,21 @@ function choiceArmoury(){
     }
 }
 
-function recupChoice(path){
+async function recupChoice(path){
   return fetch(path)
     .then((reponse) => reponse.json())
-    .then((data) =>{return data})
-    .catch(console.error)
+    .then((data) => {return data})
 }
-document.getElementById('myButton').addEventListener('click',() => {
+
+
+let Dialog = ""
+const DialogPro = recupChoice('./narration/contexte.json')
+DialogPro.then((value) => {Dialog = value})
+console.log(Dialog)
+/*document.getElementById('myButton').addEventListener('click',() => {
   leftLane()
-})
-const TextPro = recupChoice('./narration/contexte.json')
-let Text = 0
-TextPro.then((value) => {Text = value})
-
-
+})*/
+/*s
 function spaceJump(){
   let changeDialog = 0;
   document.addEventListener('keydown', function (event) {
