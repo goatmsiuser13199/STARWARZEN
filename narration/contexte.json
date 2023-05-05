@@ -1,6 +1,25 @@
 {
-"dialog1" : {
-    "banos" : ["salut gurvan", "il va tk"],
-    "gurvan" : ["il y a noa","oui"]
-}
+
+        "X12" : ["salut gurvan", "ifdqfsdfsdfl vdfsdsa tk"],
+        "X22" : ["il y a noa","oui"],
+        "X23" : ["il y a noa","oui"],
+        "X31" : ["il y a noa","oui"],
+        "X32" : ["il y a noa","oui"],
+        "X42" : ["il y a noa","oui"],
+        "X43" : ["il y a noa","oui"],
+        "X44" : ["il y a noa","oui"],
+        "X45" : ["il y a noa","oui"],
+        "X46" : ["il y a noa","oui"],
+        "X52" : ["il y a noa","oui"],
+        "X53" : ["il y a noa","oui"],
+        "X54" : ["il y a noa","oui"],
+        "X63" : ["il y a noa","oui"],
+        "X64" : ["il y a noa","oui"],
+        "X65" : ["il y a noa","oui"],
+        "X72" : ["il y a noa","oui"],
+        "X73" : ["il y a noa","oui"],
+        "X74" : ["il y a noa","oui"],
+        "X75" : ["il y a noa","oui"]
+
+
 }
