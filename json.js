@@ -4,11 +4,12 @@ function cDial(){
 }
 
 function step_10(){
-    document.getElementById("dial0").innerHTML = "Vous êtes dans le cockpit,a gauche l'armurie et a droite rester ici. Que faites-vous ?"
+    document.getElementById("dial0").innerHTML = "Vuuuuuuuuuuuuuuuuuuuuous êtes dans le cockpit,a gauche l'armurie et a droite rester ici. Que faites-vous ?"
     document.getElementById("bouton1").innerHTML = "OSEF"
     document.getElementById("bouton1").setAttribute("onclick", "step_11()")
     document.getElementById("btn2").innerHTML = "Rester dans le cokcpit"
     document.getElementById("btn2").setAttribute("onclick", "step_12()")
+    rmBTN()
 }
 function step_11(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans l'armurie, il y a un pistolet et un fusil. Que faites-vous ?"
@@ -16,6 +17,7 @@ function step_11(){
     document.getElementById("bouton1").setAttribute("onclick", "step_20()")
     document.getElementById("btn2").innerHTML = "Prendre le fusil"
     document.getElementById("btn2").setAttribute("onclick", "step_21()")
+    rmBTN()
 }
 function step_12(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le cockpit ferme le sas ou ne rien faire. Que faites-vous ?"
@@ -23,6 +25,7 @@ function step_12(){
     document.getElementById("bouton1").setAttribute("onclick", "step_22()")
     document.getElementById("btn2").innerHTML = "attendre"
     document.getElementById("btn2").setAttribute("onclick", "step_23()")
+    rmBTN()
 }
 
 
@@ -33,6 +36,8 @@ function step_20(){
     document.getElementById("bouton1").setAttribute("onclick", "step_30()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_30()")
+    rmBTN()
+
 }
 function step_21(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le cockpit, il y a un lit et une armoire. Que faites-vous ?"
@@ -40,6 +45,7 @@ function step_21(){
     document.getElementById("bouton1").setAttribute("onclick", "step_81()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_81()")
+    rmBTN()
 }
 function step_22(){
     document.getElementById("dial0").innerHTML = "mini jeux go next"
@@ -47,6 +53,7 @@ function step_22(){
     document.getElementById("bouton1").setAttribute("onclick", "step_31()")
     document.getElementById("btn2").innerHTML = "go next"
     document.getElementById("btn2").setAttribute("onclick", "step_31()")
+    rmBTN()
 }
 function step_23(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans la chambre, il y a un lit et une armoire. Que faites-vous ?"
@@ -54,6 +61,7 @@ function step_23(){
     document.getElementById("bouton1").setAttribute("onclick", "step_43()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_42()")
+    rmBTN()
 }
 
 
@@ -64,6 +72,7 @@ function step_30(){
     document.getElementById("bouton1").setAttribute("onclick", "step_40()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_41()")
+    rmBTN()
 }
 function step_31(){
     document.getElementById("dial0").innerHTML = "Vous êtes entrain de negocier. Que faites-vous ?"
@@ -71,6 +80,7 @@ function step_31(){
     document.getElementById("bouton1").setAttribute("onclick", "step_42()")
     document.getElementById("btn2").innerHTML = "ouvrir le SAS"
     document.getElementById("btn2").setAttribute("onclick", "step_43()")
+    rmBTN()
 }
 function step_32(){
     document.getElementById("dial0").innerHTML = "Vous êtes . Que faites-vous ?"
@@ -90,6 +100,7 @@ function step_40(){
     document.getElementById("bouton1").setAttribute("onclick", "step_50()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_50()")
+    rmBTN()
 }
 function step_41(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans la chambre, il y a un lit et une armoire. Que faites-vous ?"
@@ -97,6 +108,7 @@ function step_41(){
     document.getElementById("bouton1").setAttribute("onclick", "step_51()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_51()")
+    rmBTN()
 }
 function step_42(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -104,6 +116,7 @@ function step_42(){
     document.getElementById("bouton1").setAttribute("onclick", "step_52()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_52()")
+    rmBTN()
 }
 function step_43(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -111,6 +124,7 @@ function step_43(){
     document.getElementById("bouton1").setAttribute("onclick", "step_32()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_32()")
+    rmBTN()
 }
 function step_44(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -118,6 +132,7 @@ function step_44(){
     document.getElementById("bouton1").setAttribute("onclick", "step_64()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_65()")
+    rmBTN()
 }
 function step_45(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -125,6 +140,7 @@ function step_45(){
     document.getElementById("bouton1").setAttribute("onclick", "step_54()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_54()")
+    rmBTN()
 }
 function step_46(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -132,6 +148,7 @@ function step_46(){
     document.getElementById("bouton1").setAttribute("onclick", "step_54()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_54()")
+    rmBTN()
 }
 
 
@@ -142,6 +159,7 @@ function step_50(){
     document.getElementById("bouton1").setAttribute("onclick", "step_60()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_61()")
+    rmBTN()
 }
 function step_51(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -149,6 +167,7 @@ function step_51(){
     document.getElementById("bouton1").setAttribute("onclick", "step_61()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_62()")
+    rmBTN()
 }
 function step_52(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -156,6 +175,7 @@ function step_52(){
     document.getElementById("bouton1").setAttribute("onclick", "step_63()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_53()")
+    rmBTN()
 }
 function step_53(){
     "loose"
@@ -175,6 +195,7 @@ function step_61(){
     document.getElementById("bouton1").setAttribute("onclick", "step_71()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_71()")
+    rmBTN()
 }
 function step_62(){
     "loose"
@@ -185,6 +206,7 @@ function step_63(){
     document.getElementById("bouton1").setAttribute("onclick", "step_72()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_73()")
+    rmBTN()
 }
 function step_64(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -192,6 +214,7 @@ function step_64(){
     document.getElementById("bouton1").setAttribute("onclick", "step_74()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_74()")
+    rmBTN()
 }
 function step_65(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -199,6 +222,7 @@ function step_65(){
     document.getElementById("bouton1").setAttribute("onclick", "step_75()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_75()")
+    rmBTN()
 }
 
 
@@ -213,6 +237,7 @@ function step_71(){
     document.getElementById("bouton1").setAttribute("onclick", "step_70()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_80()")
+    rmBTN()
 }
 function step_72(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -220,6 +245,7 @@ function step_72(){
     document.getElementById("bouton1").setAttribute("onclick", "step_62()")
     document.getElementById("btn2").innerHTML = "ouvrir le SAS"
     document.getElementById("btn2").setAttribute("onclick", "step_62()")
+    rmBTN()
 }
 function step_73(){
     document.getElementById("dial0").innerHTML = "Vous êtes . Que faites-vous ?"
@@ -227,6 +253,7 @@ function step_73(){
     document.getElementById("bouton1").setAttribute("onclick", "step_83()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_63()")
+    rmBTN()
 }
 function step_74(){
     "loose"
@@ -241,6 +268,17 @@ function step_82(){
 function step_83(){
     "WIN"
 }
+
+function rmBTN(){
+    document.getElementById("btn3").style.display = "none"
+    document.getElementById("btn4").style.display = "none"
+}
+
+
+
+
+
+
 
 
 
