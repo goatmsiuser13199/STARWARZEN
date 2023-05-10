@@ -1,24 +1,24 @@
 
-function choiceArmoury(){
-    var myButton1 = document.getElementById("myButton1");
-    if (myButton1 === true){
-      rightLane()
-    }else{
-      leftLane()
-    }
-}
+// function choiceArmoury(){
+//     var myButton1 = document.getElementById("myButton1");
+//     if (myButton1 === true){
+//       rightLane()
+//     }else{
+//       leftLane()
+//     }
+// }
 
-async function recupChoice(path){
-  return fetch(path)
-    .then((reponse) => reponse.json())
-    .then((data) => {return data})
-}
+// async function recupChoice(path){
+//   return fetch(path)
+//     .then((reponse) => reponse.json())
+//     .then((data) => {return data})
+// }
 
 
-let Dialog = ""
-const DialogPro = recupChoice('./narration/contexte.json')
-DialogPro.then((value) => {Dialog = value})
-console.log(Dialog)
+// let Dialog = ""
+// const DialogPro = recupChoice('./narration/contexte.json')
+// DialogPro.then((value) => {Dialog = value})
+// console.log(Dialog)
 /*document.getElementById('myButton').addEventListener('click',() => {
   leftLane()
 })*/
