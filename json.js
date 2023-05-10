@@ -42,31 +42,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function rmBTN1(){
     document.getElementById("btn1").style.display = "none"
 }
