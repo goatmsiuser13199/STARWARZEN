@@ -1,0 +1,43 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ :root {
+     --primary-color: #112121;
+     --secondary-color: #f94658;
+     --third-color: #fff;
+     --fourth-color: #8f8f8f;
+
+     --primary-font: 'Black Ops One', cursive;
+     --secondary-foot: 'Geostar Fill', cursive;
+
+ }
+
+ html {
+    font-size: 16px;
+ }
+
+ header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+
+ .toggle {
+     color: var(--third-color);
+     font-size: 2rem;
+     position: absolute;
+     top: 1rem;
+     right: 1rem;
+ }
+
+ .hero {
+     background: url("img/Icaro Adventure.mp4");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+ }
