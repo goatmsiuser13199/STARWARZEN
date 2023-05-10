@@ -1,56 +1,6 @@
 start()
 function start(){
-    // launchSave()
     step_0()
-    dialog()
-}
-window.addEventListener("DOMContentLoaded", (event) => {
-    dialog();
-  });
-  // -------------------
-  function dialog() 
-  {
-    let delay = 100,
-        delay_start = 0,
-        contents,
-        letters;
-  
-    document.querySelectorAll(".animate-text").forEach(function (elem) {
-      contents = elem.textContent.trim();
-      elem.textContent = "";
-      letters = contents.split("");
-      elem.style.visibility = 'visible';
-  
-      letters.forEach(function (letter, index_1) {
-        setTimeout(function () {
-          // ---------
-          // effet machine à écrire (SIMPLE)
-          elem.textContent += letter;
-          // ---------
-          // OU :
-          // effet machine à écrire + animation CSS (SPECIAL)
-          /*
-          var span = document.createElement('span');
-          span.innerHTML = letter.replace(/ /,'&nbsp;');
-          elem.appendChild(span);
-  */
-          // ---------
-        }, delay_start + delay * index_1);
-      });    
-      delay_start += delay * letters.length;
-    });
-  }
-
-
-function rmBTN1(){
-    document.getElementById("btn1").style.display = "none"
-}
-function rmBTN2(){
-    document.getElementById("btn2").style.display = "none"
-}
-function rmBTN34(){
-    document.getElementById("btn3").style.display = "none"
-    document.getElementById("btn4").style.display = "none"
 }
 
 function wait(milliseconds) {
@@ -61,36 +11,49 @@ function wait(milliseconds) {
     } while (currentDate - date < milliseconds);
 }
 
-function dial(dialValue){
+function dial(dialV, dialValue){
     fetch('/narration/contexte.json')
     .then(response => response.json())
     .then(data => {
-        document.getElementById("dial").innerHTML = data[dialValue];
+        document.getElementById("dial").innerHTML = data[dialV][dialValue];
     })
     .catch(err => console.error(err));
 }
-// const bouton = document.querySelector('#bouton');
-// const element = document.querySelector('.dialog');
+function hideButton(btnId) {
+    document.getElementById(btnId).style.display = "none";
+  }
 
-// bouton.addEventListener('click', () => {
-//   element.classList.remove('textAnim');
-//   void element.offsetWidth;
-//   element.classList.add('textAnim');
-// });
+ 
+  
 
+function dial_0(){
+    
+        dial("X00","D1");
+        dial("X00","D2");
+        dial("X00","D3");
+        dial("X00","D4");
+        dial("X00","D5");
+        dial("X00","D6"); 
+}
 
-
-
+function dial_10(){
+    dial("X10","D1")
+    dial("X10","D2")
+    dial("X10","D3")
+    dial("X10","D4")
+    dial("X10","D5")
+}
 
 function step_0(){
+    hideButton("btn3")
+    hideButton("btn4")
     document.getElementById("dial0").innerHTML = "DEBUT HISTOIRE"
     document.getElementById("btn1").innerHTML = "Aller go"
     document.getElementById("btn1").setAttribute("onclick", "step_10()")
     document.getElementById("btn2").innerHTML = "aller go"
     document.getElementById("btn2").setAttribute("onclick", "step_10()")
-    dial("X00")
-    
-    rmBTN34()
+    dial_0()
+   
 }
 function step_10(){
     document.getElementById("dial0").innerHTML = "JEUX 1"
@@ -98,10 +61,9 @@ function step_10(){
     document.getElementById("btn1").setAttribute("onclick", "step_11()")
     document.getElementById("btn2").innerHTML = "Rester dans le cokcpit"
     document.getElementById("btn2").setAttribute("onclick", "step_12()")
-    dial("X12")
-   
-    
-    rmBTN34()
+    dial("X12", "D1")
+    dial("X12", "D2")
+    dial("X12", "D3")
 }
 function step_11(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans l'armurie, il y a un pistolet et un fusil. Que faites-vous ?"
