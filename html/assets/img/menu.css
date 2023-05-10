@@ -182,12 +182,6 @@
     opacity: 0;
 }
 
- .hero {
-     background: url("img/Icaro Adventure.mp4");
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 100vh;
- }
 
  @media all and  (max-width: 767px) {
     .menu_right, .sep_icon {
