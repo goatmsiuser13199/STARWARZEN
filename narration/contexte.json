@@ -1,15 +1,15 @@
 {
         "X00" : {
-            "D1": "Icaro : Je suis Icaro, le pilote du vaisseau. Mon équipage est coincé sur une planète, et je dois tout faire pour les sauver. Cela va être une mission difficile et dangereuse, mais je ne peux pas les laisser là-bas. C'est pour eux que je suis ici, et je ferai tout pour les ramener sains et saufs.",
-            "D2": "Icaro : Qu'est-ce que c'est que ça ?! Un vaisseau ennemi se dirige droit sur moi ! Je dois être prêt à l'affronter, sinon, je n'arriverai jamais à rejoindre mon équipage.",
-            "D3": "Icaro : Oh non, voilà que les ennuis arrivent. Et moi qui pensais passer une journée tranquille à siroter des boissons exotiques... Bon, je suppose qu'on va devoir s'en sortir par nous-mêmes, comme d'habitude !",
-            "D4": "Icaro : Salut les gars ! Ici Icaro, votre ennemi juré ! Comment ça va ? Vous n'auriez pas croisé mon équipage par hasard ? Je suis venu les chercher et j'ai un peu perdu le chemin.",
-            "D5": "Capitaine de l'équipage pirate : Vous êtes vraiment drôle, Icaro. Mais votre petit numéro ne marchera pas avec nous. Vous allez mourir, et nous récupérerons tout ce que vous transportez !",
-            "D6": "Icaro : Mourir ? Ah non, c'est pas au programme aujourd'hui ! Et puis récupérer ce que je transporte, ça va être compliqué... j'ai un stock de chaussettes sales et de vieilles BD pourries. Ça risque de ne pas intéresser grand monde !", 
-            "D7": "Voix ennemie (par communication) : Nous allons nous amarrer. Si vous coopérez, nous ne vous ferons pas de mal.",
-            "D8": "Icaro : Facile à dire quand on n'a pas une bande de pirates spatiaux qui débarquent chez soi. Bon, je vais essayer de les empêcher de rentrer quand même.",
+            "D1": "Icaro :       Je suis Icaro, le pilote du vaisseau. Mon équipage est coincé sur une planète, et je dois tout faire pour les sauver. Cela va être une mission difficile et dangereuse, mais je ne peux pas les laisser là-bas. C'est pour eux que je suis ici, et je ferai tout pour les ramener sains et saufs.",
+            "D2": "Icaro :       Qu'est-ce que c'est que ça ?! Un vaisseau ennemi se dirige droit sur moi ! Je dois être prêt à l'affronter, sinon, je n'arriverai jamais à rejoindre mon équipage.",
+            "D3": "Icaro :       Oh non, voilà que les ennuis arrivent. Et moi qui pensais passer une journée tranquille à siroter des boissons exotiques... Bon, je suppose qu'on va devoir s'en sortir par nous-mêmes, comme d'habitude !",
+            "D4": "Icaro :       Salut les gars ! Ici Icaro, votre ennemi juré ! Comment ça va ? Vous n'auriez pas croisé mon équipage par hasard ? Je suis venu les chercher et j'ai un peu perdu le chemin.",
+            "D5": "Capitaine de l'équipage pirate :      Vous êtes vraiment drôle, Icaro. Mais votre petit numéro ne marchera pas avec nous. Vous allez mourir, et nous récupérerons tout ce que vous transportez !",
+            "D6": "Icaro :       Mourir ? Ah non, c'est pas au programme aujourd'hui ! Et puis récupérer ce que je transporte, ça va être compliqué... j'ai un stock de chaussettes sales et de vieilles BD pourries. Ça risque de ne pas intéresser grand monde !", 
+            "D7": "Voix ennemie (par communication) :    Nous allons nous amarrer. Si vous coopérez, nous ne vous ferons pas de mal.",
+            "D8": "Icaro :      Facile à dire quand on n'a pas une bande de pirates spatiaux qui débarquent chez soi. Bon, je vais essayer de les empêcher de rentrer quand même.",
             "D9": "Le vaisseau ennemi s'amare au vaisseau d'Icaro",
-            "D10": "Icaro : Merde ils sont déja là, j'ai même pas eu le temps de couler un bronze"
+            "D10": "Icaro :     Merde ils sont déja là, j'ai même pas eu le temps de couler un bronze"
         },
         "X11" : {
             "D1" : "Icaro : Je vais aller chercher des armes. Je ne sais pas à quoi je vais avoir affaire, mais autant être prêt.",
