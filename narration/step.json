@@ -19,6 +19,13 @@
     "X72" : ["il y a nllllllllllllloa","oui"],
     "X73" : ["il y a nkkkkkkkkkkkkkkkkkkoa","oui"],
     "X74" : ["il y a nojjjjjjjjjjjja","oui"],
-    "X75" : ["il y a nhhhhhhhhhhhhhhhoa","oui"]
+    "X75" : ["il y a nhhhhhhhhhhhhhhhoa","oui"],
+    {   "X00" : 
+        "paragraphe1": "Je suis Icaro, le pilote du vaisseau. Mon équipage est coincé sur une planète, et je dois tout faire pour les sauver. Cela va être une mission difficile et dangereuse, mais je ne peux pas les laisser là-bas. C'est pour eux que je suis ici, et je ferai tout pour les ramener sains et saufs.",
+        "paragraphe2": "Qu'est-ce que c'est que ça ?! Un vaisseau ennemi se dirige droit sur moi ! Je dois être prêt à l'affronter, sinon, je n'arriverai jamais à rejoindre mon équipage.",
+        "paragraphe3": "Ici Icaro, du vaisseau spatial 'Star planete'. Je suis en mission de sauvetage pour mon équipage, je ne cherche pas à vous nuire. Pouvez-vous me laisser passer, s'il vous plaît ?",
+        "paragraphe4": "Ha ! Un petit vaisseau comme le tien ? Tu penses pouvoir sauver ton équipage tout seul ? Tu n'es qu'un fou ! Nous allons te réduire en miettes, et récupérer tout ce que tu transportes !",
+        "paragraphe5": "Je ne suis pas un fou ! Je suis un héros ! Et je vais sauver mon équipage, coûte que coûte ! Je n'ai pas peur de toi, vaisseau ennemi. Je suis prêt à me battre, et je ne te laisserai pas m'arrêter !"
+        }
 
 }

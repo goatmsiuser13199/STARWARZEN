@@ -1,7 +1,72 @@
 start()
 function start(){
-    step_10()
+    // launchSave()
+    step_0()
+    dialog()
 }
+window.addEventListener("DOMContentLoaded", (event) => {
+    dialog();
+  });
+  // -------------------
+  function dialog() 
+  {
+    let delay = 100,
+        delay_start = 0,
+        contents,
+        letters;
+  
+    document.querySelectorAll(".animate-text").forEach(function (elem) {
+      contents = elem.textContent.trim();
+      elem.textContent = "";
+      letters = contents.split("");
+      elem.style.visibility = 'visible';
+  
+      letters.forEach(function (letter, index_1) {
+        setTimeout(function () {
+          // ---------
+          // effet machine à écrire (SIMPLE)
+          elem.textContent += letter;
+          // ---------
+          // OU :
+          // effet machine à écrire + animation CSS (SPECIAL)
+          /*
+          var span = document.createElement('span');
+          span.innerHTML = letter.replace(/ /,'&nbsp;');
+          elem.appendChild(span);
+  */
+          // ---------
+        }, delay_start + delay * index_1);
+      });    
+      delay_start += delay * letters.length;
+    });
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function rmBTN1(){
     document.getElementById("btn1").style.display = "none"
 }
@@ -12,6 +77,7 @@ function rmBTN34(){
     document.getElementById("btn3").style.display = "none"
     document.getElementById("btn4").style.display = "none"
 }
+
 function wait(milliseconds) {
     const date = Date.now();
     let currentDate = null;
@@ -28,16 +94,27 @@ function dial(dialValue){
     })
     .catch(err => console.error(err));
 }
+// const bouton = document.querySelector('#bouton');
+// const element = document.querySelector('.dialog');
+
+// bouton.addEventListener('click', () => {
+//   element.classList.remove('textAnim');
+//   void element.offsetWidth;
+//   element.classList.add('textAnim');
+// });
+
+
 
 
 
 function step_0(){
     document.getElementById("dial0").innerHTML = "DEBUT HISTOIRE"
-    document.getElementById("btn1").innerHTML = "Aller dormir"
-    document.getElementById("btn1").setAttribute("onclick", "step_11()")
-    document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
-    document.getElementById("btn2").setAttribute("onclick", "step_12()")
-    dial("X0")
+    document.getElementById("btn1").innerHTML = "Aller go"
+    document.getElementById("btn1").setAttribute("onclick", "step_10()")
+    document.getElementById("btn2").innerHTML = "aller go"
+    document.getElementById("btn2").setAttribute("onclick", "step_10()")
+    dial("X00")
+    
     rmBTN34()
 }
 function step_10(){
@@ -47,6 +124,7 @@ function step_10(){
     document.getElementById("btn2").innerHTML = "Rester dans le cokcpit"
     document.getElementById("btn2").setAttribute("onclick", "step_12()")
     dial("X12")
+   
     
     rmBTN34()
 }
@@ -57,6 +135,7 @@ function step_11(){
     document.getElementById("btn2").innerHTML = "Prendre le fusil"
     document.getElementById("btn2").setAttribute("onclick", "step_21()")
     dial("X11")
+    
     rmBTN34()
 }
 function step_12(){
@@ -85,6 +164,7 @@ function step_21(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_81()")
     rmBTN34()
+    dial("X22")
 }
 function step_22(){
     document.getElementById("dial0").innerHTML = "mini jeux go next"
