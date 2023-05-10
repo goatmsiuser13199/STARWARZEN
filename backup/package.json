@@ -1,0 +1,23 @@
+{
+  "name": "starwarzen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goatmsiuser13199/STARWARZEN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goatmsiuser13199/STARWARZEN/issues"
+  },
+  "homepage": "https://github.com/goatmsiuser13199/STARWARZEN#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
