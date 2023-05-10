@@ -1,0 +1,71 @@
+.body{
+    background-color: aqua;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #45a049;
+}
+.btn:active{
+    background-color: #45a049;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+    /* .dialog  {
+        animation: typing 2s steps(30, end) ;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 20px;
+        font-weight: bold;
+        word-wrap: break-word;
+        max-width: 100%;
+        display: block;
+    }
+    
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    } */
+    /* .dialog {
+        overflow: hidden;
+        font-size: 20px;
+        font-weight: bold;
+        max-width: 100%;
+        display: inline-block;
+        white-space: pre-wrap;
+        animation: typing 2s steps(30, end) 1s 1 normal both;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      } */
+      .dialog { 
+        visibility:hidden;
+      font-family:"courier",sans-serif;
+      color:black; 
+    }
+    
+    /* déco */
+    .dialog { 
+      width:250px; /* pour visualiser le passage a la ligne */
+      border:1px dashed #e20606;
+    }
+      
+
+
+
+  

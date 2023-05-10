@@ -1,160 +1,25 @@
 {
-        "X00" : {
-            "D1": "Icaro : Je suis Icaro, le pilote du vaisseau. Mon équipage est coincé sur une planète, et je dois tout faire pour les sauver. Cela va être une mission difficile et dangereuse, mais je ne peux pas les laisser là-bas. C'est pour eux que je suis ici, et je ferai tout pour les ramener sains et saufs.",
-            "D2": "Icaro : Qu'est-ce que c'est que ça ?! Un vaisseau ennemi se dirige droit sur moi ! Je dois être prêt à l'affronter, sinon, je n'arriverai jamais à rejoindre mon équipage.",
-            "D3": "Icaro : Oh non, voilà que les ennuis arrivent. Et moi qui pensais passer une journée tranquille à siroter des boissons exotiques... Bon, je suppose qu'on va devoir s'en sortir par nous-mêmes, comme d'habitude !",
-            "D4": "Icaro : Salut les gars ! Ici Icaro, votre ennemi juré ! Comment ça va ? Vous n'auriez pas croisé mon équipage par hasard ? Je suis venu les chercher et j'ai un peu perdu le chemin.",
-            "D5": "Capitaine de l'équipage pirate : Vous êtes vraiment drôle, Icaro. Mais votre petit numéro ne marchera pas avec nous. Vous allez mourir, et nous récupérerons tout ce que vous transportez !",
-            "D6": "Icaro : Mourir ? Ah non, c'est pas au programme aujourd'hui ! Et puis récupérer ce que je transporte, ça va être compliqué... j'ai un stock de chaussettes sales et de vieilles BD pourries. Ça risque de ne pas intéresser grand monde !", 
-            "D7": "Voix ennemie (par communication) : Nous allons nous amarrer. Si vous coopérez, nous ne vous ferons pas de mal.",
-            "D8": "Icaro : Facile à dire quand on n'a pas une bande de pirates spatiaux qui débarquent chez soi. Bon, je vais essayer de les empêcher de rentrer quand même.",
-            "D9": "Le vaisseau ennemi s'amare au vaisseau d'Icaro",
-            "D10": "Icaro : Merde ils sont déja là, j'ai même pas eu le temps de couler un bronze"
-        },
-        "X11" : {
-            "D1" : "Icaro : Je vais aller chercher des armes. Je ne sais pas à quoi je vais avoir affaire, mais autant être prêt.",
-            "D2" : "Voix ennemie (par communication) : Hé toi ! Que fais-tu ? Reste où tu es !",
-            "D3" : "Icaro : Ah, trop tard, ils ont vu que je bougeais. Bon, go cavale !" 
-        },
-        "X20" : {
-            "D1" : "Icaro : Direction l'armurie mes chances de survie seront plus élévées avec du bon matos"
-
-        },
-        "X30" : {
-            "D1" : "Icaro : Je vais continuer d'avancer. Peut-être que je vais réussir à les prendre par surprise.",
-            "D2" : "(Soudain, un sas s'ouvre bruyamment et un ennemi apparaît pas loin d'Icaro)"
-        },
-        "X40" : {
-            "D1": "Icaro : L'enemie est pas loin je vais avancer doucement et essayer de l'esquiver je peux le faire, je peux le faire, je peux le ... ",
-            "D2": "Pirate : Hé le guignol ! Tu as cru que je te voyais pas",
-            "D3": "Icaro (surpris) : Ah ! Oh, salut toi. Tu es en avance pour la fête ?",
-            "D4": "Pirate : Si la fête est un passage à tabac, pourquoi pas",
-            "D5": "Icaro : On va voir ça. Bon, sortez les armes ! C'est vrai je n'en ai pas tu connais la MMA ?",
-            "D6": "Pirate : Tais-toi et frappe microbe",
-            "D7": "Icaro : Je vais devoir me battre à poil. J'espère que tu as un peu de sens de l'humour sinon je sens que ce combat va etre chiant !"
-        },
-        "X41" : {
-            "D1": "Icaro : Je vais me cacher dans l'aération. C'est risqué, mais ça peut marcher.",
-            "D2": "Pirate : Où es-tu passé ? Tu ne vas pas t'en sortir comme ça !",
-            "D3": "Icaro : Ils cherchent, mais ils ne me trouvent pas. Bon, il faut que je trouve un moyen de sortir d'ici discrètement."
+        "X10" : ["zeubi"],
+        "X12" : ["salut gurvan", "ifdqfsdfsdfl vdfsdsa tk"],
+        "X22" : ["dsfsdfsdf"],
+        "X23" : ["il y a ndsfsdfsdfsdfoa","oui"],
+        "X31" : ["il y a sdfszeazeanoa","oui"],
+        "X32" : ["il y aaaaaaaaaaaaaaaaaa noa","oui"],
+        "X42" : ["il y a zzzzzzzzzzzzzzzzzzznoa","oui"],
+        "X43" : ["il y a neeeeeeeeeeeeeeeoa","oui"],
+        "X44" : ["il y a nrrrrrrrrrrrrrrrroa","oui"],
+        "X45" : ["il y a ntttttttttttttttttoa","oui"],
+        "X46" : ["il y a noyyyyyyyyyyyyyyya","oui"],
+        "X52" : ["il y a nuuuuuuuuuuuuuuuoa","oui"],
+        "X53" : ["il y a nouuuuuuuuuuyutuyetuyutyueutea","oui"],
+        "X54" : ["il y a niiiiiiiiiiiiiiiiioa","oui"],
+        "X63" : ["il y a nooooooooa","oui"],
+        "X64" : ["il y a nppppppppppppppoa","oui"],
+        "X65" : ["il y a nmmmmmmmmmmmmmmoa","oui"],
+        "X72" : ["il y a nllllllllllllloa","oui"],
+        "X73" : ["il y a nkkkkkkkkkkkkkkkkkkoa","oui"],
+        "X74" : ["il y a nojjjjjjjjjjjja","oui"],
+        "X75" : ["il y a nhhhhhhhhhhhhhhhoa","oui"]
 
 
-        },
-        "X60" : {
-            "D1": "Icaro : Je ne peux pas tenir plus longtemps...",
-            "D2": "(Le pirate triomphe)",
-            "D3": "Pirate : Haha, c'est fini pour toi !",
-            "D4": "Icaro : je ne peux pas perdre pas comme...ça"
-
-        },
-        "X61" : {
-            "D1": "Icaro : Je suis en train de m'en sortir !",
-            "D2": "(Soudain, il se retrouve coincé dans l'aération)",
-            "D3": "Icaro (paniqué) : Oh non, je suis coincé ! Je ne peux plus respirer...!"
-
-
-        },
-        "X62" : {
-            "D1": "Icaro : Je suis invincible !",
-            "D2": "(Le pirate est au sol)",
-            "D3": "Icaro (en se moquant) : Oh, c'était facile. Tu as besoin d'un peu plus d'entraînement !",
-            "D4": "Icaro : Bon, continuons vers l'armurerie."
-
-
-        },
-        "X71" : {
-            "D1": "Icaro : je suis enfin dans l'armurie plus qu'à taper le code de la porte pour rentrer dedans"
-        },
-        "X70" : {
-            "D1": "(Icaro tape les chiffres sur le clavier du digicode avec confiance, mais quand il appuie sur la touche finale, il entend un bip sonore aigu qui indique un code incorrect.)",
-            "D2": "Icaro : Oh non, ce n'est pas bon. J'aurais peut-être dû noter le code quelque part.",
-            "D3": "(Soudain, les lumières de l'armurerie s'éteignent, suivies d'un bruit de pas qui s'approche rapidement de la porte.)",
-            "D4": "Icaro : Merde, ils ont sûrement entendu le bruit du digicode. Il faut que je trouve un endroit pour me cacher.",
-            "D5": "(Il cherche frénétiquement un endroit pour se cacher, mais il est déjà trop tard. Les portes s'ouvrent brutalement et une demi-douzaine de pirates armés jusqu'aux dents pointent leurs armes sur lui.)",
-            "D6": "Pirate 1 : Hé bien, hé bien, qu'avons-nous ici ? Un petit intrus qui pense pouvoir s'emparer de nos armes ?",
-            "D7": "Icaro : Euh, salut les gars. Vous savez, c'était juste une petite erreur de code. Je peux vous expliquer.",
-            "D8": "Pirate 2 : Garde tes mensonges pour quelqu'un d'autre. Amenez-le avec nous, les gars. Le capitaine voudra le voir.",
-            "D9": "Icaro est emmené de force par les pirates, impuissant face à leur supériorité numérique et armée. Il est jeté dans une cellule sombre et froide, en attendant son sort."
-        },
-        "X80" : {
-            "D1": "Icaro arrive devant l'armurerie et trouve un digicode. Heureusement, il se rappelle du code qu'il a vu sur les fichiers du vaisseau. Il tape rapidement les chiffres et les lettres, et la porte de l'armurerie s'ouvre.",
-            "D2": "Icaro est émerveillé par la vue de toutes les armes et les gadgets high-tech dans la salle. Il se saisit rapidement de deux pistolets laser et d'un lance-roquettes, et il sort de l'armurerie, prêt à affronter les pirates.",
-            "D3": "A peine Icaro quitte l'armurerie, il est immédiatement confronté à un groupe de pirates ennemis qui l'attendent. Sans hésiter, Icaro sort ses armes et commence à tirer. Il est tellement rapide et précis que les pirates n'ont pas le temps de riposter. Icaro se sent comme Deadpool en train de dézinguer des ennemis, il fait des blagues et des grimaces pendant qu'il se bat.",
-            "D4": "Après quelques minutes de combat, tous les pirates sont morts. Icaro est épuisé, mais fier de sa victoire. Il prend possession du vaisseau pirate et décide de l'utiliser pour retrouver son équipage. Avec le vaisseau ennemi à sa disposition, il atteint rapidement la planète où se trouvent ses amis.",
-            "D5": "Après un atterrissage réussi, Icaro se dirige vers l'endroit où il pense que son équipage est retenu prisonnier. Il trouve une petite base de pirates ennemis, et il entre en force en utilisant toutes les armes qu'il a à disposition. Il réussit à délivrer tous ses amis, qui sont très heureux de le voir.",
-            "D6": "Icaro se rend ensuite compte qu'il est maintenant à la tête d'un vaisseau pirate. Il décide de garder le vaisseau et de le personnaliser à son goût. Il donne un nom cool au vaisseau et le décore avec des stickers amusants.",
-            "D7": "Icaro et son équipage reprennent ensuite leur mission initiale, en sachant qu'ils sont désormais plus forts et mieux équipés qu'avant. Icaro fait une blague à ses amis sur la décoration de son vaisseau pirate, et tout le monde rit et célèbre leur victoire."
-        },
-        "X21" : {
-            "D1": "Icaro : Bon, direction ma chambre pour récupérer mon arme."
-
-        },
-        "X81" : {
-            "D1": "(Icaro arrive dans sa chambre et cherche dans ses tiroirs.)",
-            "D2": "Icaro : Ah, la voilà ! Mon fidèle pistolet à rayons."
-        },
-        "X90" : {
-            "D1": "(En regardant autour de lui, il trouve un message sur son transpondeur qui attire son attention.)",
-            "D2": "Icaro : Un message ? Voyons voir...",
-            "D3": "(Icaro ouvre la lettre et commence à lire.)",
-            "D4": "Icaro : Cher Icaro, si tu lis cette lettre, c'est que tu as réussi à échapper aux griffes de la Fédération Inter Galactique. Sache que tu es maintenant considéré comme un criminel, car tu as volé le payload qui peut faire tomber le régime totalitaire en place. La Fédération ne te laissera jamais tranquille tant que tu ne seras pas capturé et éliminé. Mais ne te décourage pas, car nous sommes avec toi, nous te soutiendrons dans ta quête pour la liberté. Ton équipage est en sécurité sur la planète X, où ils attendent ton retour. Bonne chance, Icaro, que la force soit avec toi.",
-            "D5": "Icaro (en souriant) : Eh bien, eh bien, ça devient intéressant ! Je savais que j'avais mis le nez dans quelque chose de gros, mais pas à ce point-là ! La Fédération veut me faire tomber ? Pas de souci, je suis prêt à relever le défi !",
-            "D6": "(Icaro range la lettre dans sa poche et se prépare à affronter les ennemis pour sauver son équipage sur la planète X.)"
-        },
-        "X91" : {
-            "D1": "Icaro : C'est bon j'ai mon arme faut pas que je tarde je vais reprendre possession de mon vaisseau"
-        }, 
-        "X100" : {
-            "D1": "(En sortant de sa chambre Icaro tombe face au capitaine du vaisseau pirate)"
-        },  
-        "X110" :  {
-            "D1": "(Icaro dégaine son arme et la pointe sur le capitaine",
-            "D2": "Icaro : Bien, bien, bien. Vous êtes le capitaine de ces pirates, n'est-ce pas ? Eh bien, vous allez me conduire jusqu'à mes amis sur la planète en bas, et en échange je vous laisse la vie sauve. Compris ?",
-            "D3": "Capitaine : Très bien, très bien. Mais si je peux me permettre, vous avez l'air un peu seul, là. Vous comptez prendre en otage toute mon équipage ?",
-            "D4": "Icaro : Je n'aurais pas besoin de le faire si vous coopérez. ",
-            "D5": "(Icaro entends l'équipage se rapprocher)"
-        },
-        "X122" :  {
-            "D1": "(Icaro bute le capitaine, il se tourne vers l'équipage et leur lance un regard sévère.)",
-            "D2": "Icaro : Vous venez de voir ce que je suis capable de faire. Désormais, vous me respecterez et vous obéirez à mes ordres. Sinon, vous finirez comme votre ancien capitaine.",
-            "D4": "Icaro : Il range son arme et ajoute : Maintenant, on va sauver mon équipage. Et je ne veux pas un mot de travers de la part de l'un d'entre vous.",
-            "D5": "(l'équipage se prosterne et jure fidélité au nouveau capitaine)"
-        },
-        "X121" :  {
-            "D1": "Icaro relâche le capitaine, mais il est furieux d'avoir été traité de mauviette par celui-ci", 
-            "D2": "Icaro : Je suis peut-être un voleur, mais je ne suis pas une mauviette. Et je vais vous le prouver",
-            "D4": "(Il sort son arme, mais l'équipage l'abat avant qu'il n'ait eu le temps de tirer.)",
-            "D5": "Le vaisseau pirate reprend sa route, laissant derrière lui le corps d'Icaro."
-        },
-        "X111" :  {
-            "D1": "(Icaro croise le regard du capitaine des pirates et les deux hommes se fixent un instant.)", 
-            "D2": "Capitaine : Ah, je vois que vous êtes encore en vie.",
-            "D4": "Icaro : C'est bien ce que vous voyez, capitaine.",
-            "D5": "Capitaine : Vous m'avez pris par surprise tout à l'heure, j'avoue. Mais maintenant que vous êtes là, que comptez-vous faire ?",
-            "D6": "Icaro : Rien du tout. Je n'ai pas envie de perdre mon temps avec des pirates de pacotille comme vous.", 
-            "D7": "Capitaine (amusé) : Ah ah ! Vous êtes bien brave, mon gars. Mais je crois que vous ne réalisez pas la situation dans laquelle vous vous trouvez.",
-            "D8": "Icaro : Et c'est vous qui croyez que je ne réalise pas ? Vous pensez pouvoir me mettre la main dessus comme ça ? Vous pensez pouvoir me faire la peau ? Essayez, je vous en prie.",
-            "D9": "Capitaine (riant) : Vous avez des couilles, j'aime ça.",
-            "D10": "Icaro sourit et répond avec un ton taquin : Merci, j'ai toujours su que j'avais des couilles en acier trempé.", 
-            "D11": "Capitaine : Vous avez de la chance que je sois un pirate honnête. Si vous me promettez de ne pas nous attaquer, je suis prêt à vous aider à sauver vos amis.",
-            "D12": "Icaro : Et pourquoi je devrais vous croire ?",
-            "D13": "Capitaine : Parce que je suis un homme de parole. Et parce que je ne tiens pas à avoir les fédéraux sur le dos. Alors, qu'est-ce que vous en dites ?",
-            "D14": "Icaro (souriant) : D'accord, capitaine. On fait comme ça."
-    },
-    "X112" : {
-        "D1": "Icaro : Désolé, capitaine, mais je ne suis pas d'humeur à jouer les otages aujourd'hui. On se reverra peut-être un jour, qui sait.", 
-        "D2": "Capitaine : Ah, ah, ah ! Très bien, monsieur. Mais vous devriez savoir que vous n'irez pas très loin tout seul dans ce vaisseau. Les couloirs sont infestés de mes hommes, vous savez ?",
-        "D3": "Icaro : On verra bien qui rira le dernier."
-    },
-    "X123" : {
-        "D1": "Icaro choisit le couloir de gauche et s'engouffre dedans à toute vitesse", 
-        "D2": "Malheureusement il glisse sur une peau de banane et meurt"
-    },
-    "X124" : {
-        "D1": "Icaro jette un coup d'œil à droite et décide de s'y engager. Il court à travers le couloir sombre, évitant les obstacles et les ennemis qui apparaissent sur son chemin. Finalement, il atteint une porte verrouillée. Avec un peu de piratage informatique, il parvient à l'ouvrir et se glisse à l'intérieur.", 
-        "D2": "Il se retrouve dans une pièce de commande. Des écrans et des boutons clignotent autour de lui. Il comprend vite qu'il se trouve dans le vaisseau ennemi. Soudain, une alarme retentit, et des soldats commencent à entrer dans la pièce. Icaro se cache rapidement derrière une console de commande et attend patiemment.",
-        "D3": "Quand les soldats passent à côté de lui, il surgit de sa cachette et commence à courir dans les couloirs du vaisseau ennemi. Il évite de justesse les tirs ennemis et se fraye un chemin vers la salle de communication. Avec un peu de savoir-faire, il réussit à pirater le système et crée une fausse alerte dans un secteur éloigné du vaisseau. Pendant que les ennemis sont occupés à résoudre le faux problème, Icaro profite de la confusion pour s'échapper.",
-        "D4": "Il retourne rapidement à son vaisseau et s'installe dans le cockpit. Il appuie sur le bouton de lancement et s'envole dans l'espace, laissant derrière lui les ennemis frustrés. Dans les communications, il leur fait un doigt d'honneur et leur crie des insultes avant d'exploser leur vaisseau avec des missiles.",
-        "D5": "Icaro se met alors en route vers la planète où se trouve son équipage. Il est déterminé à les sauver, coûte que coûte."
-    }
 }
