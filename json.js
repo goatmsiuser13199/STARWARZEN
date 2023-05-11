@@ -38,7 +38,7 @@ function dial_0(){
     setTimeout('dial("X00","D9")', 60000);
     setTimeout('dial("X00","D10")', 67000);
     setTimeout('hideButton("btn1")', 67500);
-    setTimeout('hideButton("btn2")', 67500);
+    
 }
 function dial_11(){
     setTimeout('dial("X11","D1")', 1000);
@@ -237,20 +237,15 @@ function dial_124(){
 
 function step_0(){
     
-    document.getElementById("btn1").innerHTML = "Aller go"
+    document.getElementById("btn1").innerHTML = "Se lever"
     document.getElementById("btn1").addEventListener("click",() =>{
         step_10()
     } )
-    document.getElementById("btn2").innerHTML = "aller go"
-    document.getElementById("btn2").addEventListener("click",() =>{
-        step_10()
-    })
-    dial_0()  
-  
+    dial_0()
    
 }
 function step_10(){
-    document.getElementById("dial0").innerHTML = "JEUX 1"
+    
     document.getElementById("btn1").innerHTML = "OSEF"
     document.getElementById("btn1").addEventListener("click",() =>{
         step_11()
