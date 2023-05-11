@@ -27,22 +27,166 @@ function hideButton(btnId) {
   
 
 function dial_0(){
+    setTimeout('dial("X00","D1")', 1000);
+    setTimeout('dial("X00","D2")', 11000);
+    setTimeout('dial("X00","D3")', 21000);
+    setTimeout('dial("X00","D4")', 31000);
+    setTimeout('dial("X00","D5")', 41000);
+    setTimeout('dial("X00","D6")', 51000);
+    setTimeout('dial("X00","D7")', 61000);
+    setTimeout('dial("X00","D8")', 71000);
+    setTimeout('dial("X00","D9")', 81000);
+    setTimeout('dial("X00","D10")', 91000);
+     
+}
+function dial_11(){
+    setTimeout('dial("X11","D1"', 1000);
+    setTimeout('dial("X11","D2"', 11000);
+    setTimeout('dial("X11","D3"', 21000);
+}
+function dial_20(){
+    setTimeout('dial("X2O","D1"', 1000);
+}
+function dial_21(){
+    setTimeout('dial("X21","D1")', 1000);
+}
+function dial_30(){
+    setTimeout('dial("X30","D1"', 1000);
+    setTimeout('dial("X30","D2"', 11000);
+}
+function dial_40(){
+    setTimeout('dial("X40","D1"', 1000);
+    setTimeout('dial("X40","D2"', 11000);
+    setTimeout('dial("X40","D3"', 21000);
+    setTimeout('dial("X40","D4"', 31000);
+    setTimeout('dial("X40","D5"', 41000);
+    setTimeout('dial("X40","D6"', 51000);
+    setTimeout('dial("X40","D7"', 61000);
+}
+function dial_41(){
+    setTimeout('dial("X41","D1"', 1000);
+    setTimeout('dial("X41","D2"', 11000);
+    setTimeout('dial("X41","D3"', 21000);
+}
+function dial_60(){
+    setTimeout('dial("X60","D1"', 1000);
+    setTimeout('dial("X60","D2"', 11000);
+    setTimeout('dial("X60","D3"', 21000);
+    setTimeout('dial("X60","D4"', 31000);
+
+}
+function dial_61(){
+    setTimeout('dial("X61","D1"', 1000);
+    setTimeout('dial("X61","D2"', 11000);
+    setTimeout('dial("X61","D3"', 21000);
+}
+function dial_62(){
+    setTimeout('dial("X62","D1"', 1000);
+    setTimeout('dial("X62","D2"', 11000);
+    setTimeout('dial("X62","D3"', 21000);   
+    setTimeout('dial("X62","D4"', 31000);
+}
+function dial_70(){
+    setTimeout('dial("X70","D1")', 1000);
+    setTimeout('dial("X70","D2")', 11000);
+    setTimeout('dial("X70","D3")', 21000);
+    setTimeout('dial("X70","D4")', 31000);
+    setTimeout('dial("X70","D5")', 41000);
+    setTimeout('dial("X70","D6")', 51000);
+    setTimeout('dial("X70","D7")', 61000);
+    setTimeout('dial("X70","D8")', 71000);
+    setTimeout('dial("X70","D9")', 81000);
+   
+}
+function dial_71(){
+    setTimeout('dial("X71","D1")', 1000);
+}
+function dial_80(){
+    setTimeout('dial("X80","D1")', 1000);
+    setTimeout('dial("X80","D2")', 11000);
+    setTimeout('dial("X80","D3")', 21000);
+    setTimeout('dial("X80","D4")', 31000);
+    setTimeout('dial("X80","D5")', 41000);
+    setTimeout('dial("X80","D6")', 51000);
+    setTimeout('dial("X80","D7")', 61000);
+}
+function dial_81(){
+    setTimeout('dial("X81","D1")', 1000);
+    setTimeout('dial("X81","D2")', 11000);
+}
+function dial_90(){
+    setTimeout('dial("X90","D1")', 1000);
+    setTimeout('dial("X90","D2")', 11000);
+    setTimeout('dial("X90","D3")', 21000);
+    setTimeout('dial("X90","D4")', 31000);
+    setTimeout('dial("X90","D5")', 41000);
+    setTimeout('dial("X90","D6")', 51000);
+}
+function dial_91(){
+    setTimeout('dial("X91","D1")', 1000);
+}
+function dial_100(){
+    setTimeout('dial("X100","D1")', 1000);
+}
+function dial_110(){
+    setTimeout('dial("X110","D1")', 1000);
+    setTimeout('dial("X110","D2")', 11000);
+    setTimeout('dial("X110","D3")', 21000);
+    setTimeout('dial("X110","D4")', 31000);
+    setTimeout('dial("X110","D5")', 41000);
     
-        dial("X00","D1");
-        dial("X00","D2");
-        dial("X00","D3");
-        dial("X00","D4");
-        dial("X00","D5");
-        dial("X00","D6"); 
+}
+function dial_111(){
+    setTimeout('dial("X111","D1")', 1000);
+    setTimeout('dial("X111","D2")', 11000);
+    setTimeout('dial("X111","D3")', 21000);
+    setTimeout('dial("X111","D4")', 31000);
+    setTimeout('dial("X111","D5")', 41000);
+    setTimeout('dial("X111","D6")', 51000);
+    setTimeout('dial("X111","D7")', 61000);
+    setTimeout('dial("X111","D8")', 71000);
+    setTimeout('dial("X111","D9")', 81000);
+    setTimeout('dial("X111","D10")', 91000);
+    setTimeout('dial("X111","D11")', 101000);
+    setTimeout('dial("X111","D12")', 111000);
+    setTimeout('dial("X111","D13")', 121000);
+    setTimeout('dial("X111","D14")', 131000);
+}
+function dial_112(){
+    setTimeout('dial("X112","D1")', 1000);
+    setTimeout('dial("X112","D2")', 11000);
+}
+function dial_121(){
+    setTimeout('dial("X121","D1")', 1000);
+    setTimeout('dial("X121","D2")', 11000);
+    setTimeout('dial("X121","D3")', 21000);
+    setTimeout('dial("X121","D4")', 31000);
+}
+function dial_122(){
+    setTimeout('dial("X122","D1")', 1000);
+    setTimeout('dial("X122","D2")', 11000);
+    setTimeout('dial("X122","D3")', 21000);
+    setTimeout('dial("X122","D4")', 31000);
+}
+function dial_123(){
+    setTimeout('dial("X123","D1")', 1000);
+    setTimeout('dial("X123","D2")', 11000);
+}
+function dial_124(){
+    setTimeout('dial("X124","D1")', 1000);
+    setTimeout('dial("X124","D2")', 11000);
+    setTimeout('dial("X124","D3")', 21000);
+    setTimeout('dial("X124","D4")', 31000);
+    setTimeout('dial("X124","D5")', 41000);
 }
 
-function dial_10(){
-    dial("X10","D1")
-    dial("X10","D2")
-    dial("X10","D3")
-    dial("X10","D4")
-    dial("X10","D5")
-}
+
+
+
+
+
+
+
 
 function step_0(){
     hideButton("btn3")
@@ -53,6 +197,7 @@ function step_0(){
     document.getElementById("btn2").innerHTML = "aller go"
     document.getElementById("btn2").setAttribute("onclick", "step_10()")
     dial_0()
+    
    
 }
 function step_10(){
@@ -61,9 +206,7 @@ function step_10(){
     document.getElementById("btn1").setAttribute("onclick", "step_11()")
     document.getElementById("btn2").innerHTML = "Rester dans le cokcpit"
     document.getElementById("btn2").setAttribute("onclick", "step_12()")
-    dial("X12", "D1")
-    dial("X12", "D2")
-    dial("X12", "D3")
+    
 }
 function step_11(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans l'armurie, il y a un pistolet et un fusil. Que faites-vous ?"
@@ -71,7 +214,7 @@ function step_11(){
     document.getElementById("btn1").setAttribute("onclick", "step_20()")
     document.getElementById("btn2").innerHTML = "Prendre le fusil"
     document.getElementById("btn2").setAttribute("onclick", "step_21()")
-    dial("X11")
+    dial_11()
     
     rmBTN34()
 }
@@ -93,6 +236,7 @@ function step_20(){
     document.getElementById("btn1").setAttribute("onclick", "step_30()")
     rmBTN2()
     rmBTN34()
+    dial_20()
 }
 function step_21(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le cockpit, il y a un lit et une armoire. Que faites-vous ?"
@@ -101,7 +245,7 @@ function step_21(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_81()")
     rmBTN34()
-    dial("X22")
+    dial_21()
 }
 function step_22(){
     document.getElementById("dial0").innerHTML = "mini jeux go next"
@@ -129,6 +273,7 @@ function step_30(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_41()")
     rmBTN34()
+    dial_30()
 }
 function step_31(){
     document.getElementById("dial0").innerHTML = "Vous êtes entrain de negocier. Que faites-vous ?"
@@ -157,6 +302,7 @@ function step_40(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_50()")
     rmBTN34()
+    dial_40()
 }
 function step_41(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans la chambre, il y a un lit et une armoire. Que faites-vous ?"
@@ -165,6 +311,7 @@ function step_41(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_51()")
     rmBTN34()
+    dial_41()
 }
 function step_42(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -243,7 +390,8 @@ function step_54(){
 
 
 function step_60(){
-    "loose"
+    dial_60()
+    
 }
 function step_61(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -252,9 +400,10 @@ function step_61(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_71()")
     rmBTN34()
+    dial_61()
 }
 function step_62(){
-    "loose"
+    dial_62()
 }
 function step_63(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -285,7 +434,7 @@ function step_65(){
 
 
 function step_70(){
-    "loose"
+    dial_70()
 }
 function step_71(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -294,6 +443,7 @@ function step_71(){
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_80()")
     rmBTN34()
+    dial_71()
 }
 function step_72(){
     document.getElementById("dial0").innerHTML = "Vous êtes dans le SAS. Que faites-vous ?"
@@ -319,7 +469,7 @@ function step_75(){
 }
 
 function step_80(){
-    "WIN"
+    dial_80()
 }
 function step_81(){
     document.getElementById("dial0").innerHTML = "Vous êtes . Que faites-vous ?"
@@ -327,6 +477,7 @@ function step_81(){
     document.getElementById("btn1").setAttribute("onclick", "step_90()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_91()")
+    dial_81()
 }
 function step_82(){
     "loose"
@@ -344,6 +495,7 @@ function step_100(){
     document.getElementById("btn2").setAttribute("onclick", "step_111()")
     document.getElementById("btn3").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn3").setAttribute("onclick", "step_112()")
+    dial_100()
 }
 
 
@@ -353,10 +505,12 @@ function step_110(){
     document.getElementById("btn1").setAttribute("onclick", "step_120()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_121()")
+    dial_110()
 }
 function step_111(){
     document.getElementById("btn1").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn1").setAttribute("onclick", "step_122()")
+    dial_111()
     
 }
 function step_112(){
@@ -365,6 +519,7 @@ function step_112(){
     document.getElementById("btn1").setAttribute("onclick", "step_123()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_124()")
+    dial_112()
 }
 
 function step_120(){
@@ -378,20 +533,32 @@ function step_121(){
     document.getElementById("btn1").setAttribute("onclick", "step_131()")
     document.getElementById("btn2").innerHTML = "Ouvrir l'armoire"
     document.getElementById("btn2").setAttribute("onclick", "step_131()")
+    dial_121()
 }
 function step_122(){
     document.getElementById("btn1").innerHTML = "Aller dormir"
-    document.getElementById("btn1").setAttribute("onclick", "step_32()")
+    document.getElementById("btn1").setAttribute("onclick", "step_32()")    
+    dial_122()
 
 }
 function step_123(){
     document.getElementById("dial0").innerHTML = "Vous êtes . Que faites-vous ?"
     document.getElementById("btn1").innerHTML = "Aller dormir"
     document.getElementById("btn1").setAttribute("onclick", "step_131()")
+    dial_123()
+    hideButton("btn2")
+    hideButton("btn3")
+    hideButton("btn4")
+
+
 }
 function step_124(){
     document.getElementById("btn1").innerHTML = "Aller dormir"
     document.getElementById("btn1").setAttribute("onclick", "step_132()")
+    dial_124()
+    hideButton("btn2")
+    hideButton("btn3")
+    hideButton("btn4")
 }
 
 function step_130(){
