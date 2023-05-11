@@ -17,4 +17,4 @@ Licence
 Ce projet est sous licence MIT, ce qui signifie que vous êtes libre de l'utiliser, de le modifier et de le distribuer, tant que vous attribuez la source originale et que vous ne retenez pas les auteurs responsables des dommages résultant de son utilisation. Voir le fichier LICENSE pour plus de détails.
 
 Auteurs
-Ce projet a été développé par MsiUseGoat et Bronzos Si vous avez des questions sur le projet ou si vous souhaitez discuter de la contribution, n'hésitez pas à nous contacter à esteban.loret@ynov.com .
+Ce projet a été développé par MsiUseGoat et Bronzos deux gros trolleur de compét c'est notre marque de fabrique. Si vous avez des questions sur le projet ou si vous souhaitez discuter de la contribution, n'hésitez pas à nous contacter à esteban.loret@ynov.com .
