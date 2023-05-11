@@ -27,7 +27,6 @@ function hideButton(btnId) {
   
 
 function dial_0(){
-    
         dial("X00","D1");
         dial("X00","D2");
         dial("X00","D3");
@@ -406,5 +405,3 @@ function step_132(){
 function step_140(){
     "WIN FIN 4"
 }
-
-
